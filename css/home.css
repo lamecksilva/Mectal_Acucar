@@ -12,13 +12,13 @@ p {font-size: 16px;}
 }
 
 .container-fluid {
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
 }
 
 .navbar {
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	border: 0;
 	border-radius: 0;
 	margin-bottom: 0;
