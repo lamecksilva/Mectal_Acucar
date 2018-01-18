@@ -4,21 +4,33 @@ body {
 	color: #f5f6f7;
 }
 
-p {font-size: 16px;}
-.margin {margin-bottom: 45px;}
+p {
+	font-size: 16px;
+}
+
+.margin {
+	margin-bottom: 45px;
+}
+
 .bg-1 {
 	background-color: #1abc9c;
 	color: #ffffff;
 }
 
+.bg-2 {
+	background-color: #474e5d;
+	color: #ffffff;
+}
+
 .container-fluid {
-	padding-top: 20px;
-	padding-bottom: 10px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+
 }
 
 .navbar {
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	border: 0;
 	border-radius: 0;
 	margin-bottom: 0;
