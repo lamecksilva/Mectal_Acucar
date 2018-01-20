@@ -44,25 +44,27 @@ p {
 
 #nome {
 	width: 50%;
+	background-color: #777c6f;
 }
 
 #nome::-webkit-input-placeholder{
-	color: #2a2d26;
+	color: white;
 }
 
 #nome::-moz-placeholder {
-	color: #2a2d26;
+	color: white;
 }
 
 #mensagem {
 	height: 200px;
 	width: 50%;
+	background-color: #777c6f;
 }
 
 #mensagem::-webkit-input-placeholder {
-	color: #2a2d26;
+	color: white;
 }
 
 #mensagem::-moz-placeholder {
-	color: #2a2d26;
+	color: white;
 }

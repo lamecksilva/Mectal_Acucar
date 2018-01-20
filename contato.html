@@ -43,7 +43,7 @@
 	<div class="container-fluid bg-2 text-center">
 		<h2 class="margin">Deixe sua mensagem abaixo</h2>
 
-		<form method="get" id="formulario">
+		<form action="acao.php" id="formulario">
 			<div class="form-group">
 				<label for="nome">Nome</label>
 				<input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
@@ -54,8 +54,15 @@
 		</form>
 		<textarea form="formulario" name="txtarea" id="mensagem" cols="15" placeholder="Digite sua mensagem aqui"></textarea>
 		<br>
-		<button form="formulario" type="submit" class="btn btn-primary">Enviar Mensagem</button>
+		<button form="formulario" type="submit" class="btn btn-primary" onclick="funcReset()">Enviar Mensagem</button>
 
 	</div>
 	</body>
+
+	<script type="text/javascript">
+		function funcReset() {
+			document.getElementById("formulario").reset();
+		}
+	</script>
+	
 </html>
