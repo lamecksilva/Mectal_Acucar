@@ -59,6 +59,7 @@ p {
 	height: 200px;
 	width: 50%;
 	background-color: #777c6f;
+	resize: vertical;
 }
 
 #mensagem::-webkit-input-placeholder {
