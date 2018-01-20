@@ -43,7 +43,7 @@ p {
 }
 
 #nome {
-	width: 50%;
+	width: 75%;
 	background-color: #777c6f;
 }
 
@@ -57,7 +57,7 @@ p {
 
 #mensagem {
 	height: 200px;
-	width: 50%;
+	width: 75%;
 	background-color: #777c6f;
 	resize: vertical;
 }
