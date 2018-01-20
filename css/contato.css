@@ -30,3 +30,39 @@ p {
 	background-color: #b71e16;
 	color: #ffffff;
 }
+
+.bg-2 {
+	background-color: #a7f442;
+	color: #ffffff;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.form-control {
+	margin: auto;
+}
+
+#nome {
+	width: 50%;
+}
+
+#nome::-webkit-input-placeholder{
+	color: #2a2d26;
+}
+
+#nome::-moz-placeholder {
+	color: #2a2d26;
+}
+
+#mensagem {
+	height: 200px;
+	width: 50%;
+}
+
+#mensagem::-webkit-input-placeholder {
+	color: #2a2d26;
+}
+
+#mensagem::-moz-placeholder {
+	color: #2a2d26;
+}
