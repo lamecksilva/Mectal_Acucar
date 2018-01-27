@@ -1,5 +1,10 @@
 var url = require('url');
 var fs = require('fs');
+var express = require('express');
+var app = express();
+
+app.use(express.static(__dirname + 'public'));
+
 
 function renderHTML(path, response) {
 	fs.readFile(path, null, function(error, data) {
